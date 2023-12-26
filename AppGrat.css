@@ -1,24 +1,42 @@
 * {
     padding: 0px; margin: 0px;
 }
+.mydiv {
+    position: relative;
+    top: 40px;
+    height: 100%;
+    margin: auto; 
+    width: 80%;
+    background-color: white; 
+}
+
+.animate-bg:before, .animate-bg:after {
+	content: '';
+	position: absolute;
+	left: -8px;
+	top: -8px;
+	background: linear-gradient(120deg, #8d01a0, #031ba5,  
+	#e6036d,#ff6600, #04c2e4);
+	background-size: 300%;
+	width: calc(100% + 16px);
+	height: calc(100% + 16px);
+	z-index: -1;
+	animation: BGgradient 15s ease infinite; 
+}
+
+@keyframes BGgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	100% {
+		background-position: 50% 0%;
+	}
+}
 body{
     background-image: url(https://image.freepik.com/free-photo/gradient-blue-abstract-background-smooth-dark-blue-with-black-vignette-studio_1258-68059.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-#cacadepato{
-    position: relative;
-    top: 40px;
-    height: 100%;
-    border: solid black;
-    margin: auto; 
-    width: 80%;
-    box-shadow: 0 0 10px rgb(8, 1, 17);
-    background-color: white;
-}
-#cacadepato:hover{
-    box-shadow: 0 0 20px rgb(22, 89, 97);
 }
 textarea{
     position: relative;
