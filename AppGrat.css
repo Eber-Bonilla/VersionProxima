@@ -98,6 +98,7 @@ h1{
     position: relative;
     top: 60px;
     left: 120px;
+    
 }
 #mine1:hover{
     background: linear-gradient(70deg, blue, pink);
@@ -173,6 +174,139 @@ h4{
     font-family: Arial black;
 }
 .cc{
+    text-align: center;
+    width: 282px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: -225px;
+    left: 26px;
+    color: white;
+    font-family: Arial black;
+
+}
+@media screen and (min-width: 1300px) {
+    .AppGrat{
+        width: 100%;
+        height: 101px;
+        background-color:#FCBE1D;
+        margin-bottom: 10px;
+    }
+    h1{
+        text-align: center;
+        color: black;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Inika;
+        font-size: 40px;
+        font-weight: 400;
+        padding: 15px
+    }
+    .chico{
+        margin: auto;
+        width: 74%;
+        margin-bottom: 60px;
+        left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 20px;
+        left: 49px;
+    }
+    .text1{
+        color: black;
+        font-family: Inika;
+        font-size: 20px;
+        font-weight: 400;
+        white-space: nowrap;
+        border-right: 2px solid;
+        width: 71ch;
+        animation: typing 4s steps(71),
+        blink .5s infinite step-end ;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .minecraft12{
+        width: 100%;
+        height: 300px;
+        background-color:#000;
+        margin-bottom: 110px;
+        display: flex;
+    }
+    #mine1{
+        width: 350px;
+        height: 192px;
+        background-color: #000;
+        float: left;
+        color: white;
+        font-family: Arial black;
+        border-radius: 20px;
+        display: flex;
+        position: relative;
+        top: 60px;
+        left: 120px;
+        
+    }
+    #mine2{
+        width: 350px;
+        height: 192px;
+        background-color: #000;
+        float: right;
+        color: white;
+        font-family: Arial black;
+        border-radius: 20px;
+        display: flex;
+        position: relative;
+        top: 60px;
+        left: 260px;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 110px;
+        position: relative; 
+        top: 25px;
+        left: 20px;
+    }
+    .puto{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 48vh; 
+    }
+    #h5{
+        width: 700px;
+        height: 69px;
+        text-align: center; 
+        font-size: 25px;
+        position: relative;
+        top: -190px;
+        left: -160px;
+    }
+    #h3{
+        width: 560px;
+        height: 79px;
+        text-align: center;
+        position: relative; 
+        top: -190px;
+        font-size: 25px;
+        left: -70px;
+    }
+    h4{
+        text-align: center;
+        width: 282px;
+        color: #000;
+        font-size: 15px;
+        font-weight: 400;
+        position: relative;
+        top: -233px;
+        left: 26px;
+        color: white;
+        font-family: Arial black;
+    }
+    .cc{
         text-align: center;
         width: 282px;
         color: #000;
@@ -183,7 +317,523 @@ h4{
         left: 26px;
         color: white;
         font-family: Arial black;
-
+    }
+    iframe{
+        width: 550px;
+        height: 320px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .AppGrat{
+        width: 100%;
+        height: 101px;
+        background-color:#FCBE1D;
+        margin-bottom: 10px;
+    }
+    h1{
+        text-align: center;
+        color: black;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Inika;
+        font-size: 40px;
+        font-weight: 400;
+        padding: 15px
+    }
+    .chico{
+        margin: auto;
+        width: 74%;
+        margin-bottom: 60px;
+        left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .text1{
+        color: black;
+        font-family: Inika;
+        font-size: 25px;
+        font-weight: 400;
+        white-space: nowrap;
+        border-right: 2px solid;
+        width: 71ch;
+        animation: typing 4s steps(71),
+        blink .5s infinite step-end ;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .minecraft12{
+        width: 100%;
+        height: 400px;
+        background-color:#000;
+        margin-bottom: 110px;
+        display: flex;
+    }
+    #mine1{
+        width: 450px;
+        height: 240px;
+        top: 60px;
+        left: 160px;
+    }
+    #mine2{
+        width: 450px;
+        height: 240px;
+        top: 60px;
+        left: 210px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        top: 43px;
+        left: 20px;
+    }
+    .puto{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 48vh; 
+    }
+    #h5{
+        width: 700px;
+        height: 69px;
+        font-size: 35px;
+        top: -220px;
+        left: -80px;
+    }
+    #h3{
+        width: 560px;
+        height: 79px; 
+        top: -220px;
+        font-size: 35px;
+        left: 20px;
+    }
+    h4{
+        font-size: 20px;
+        top: -245px;
+        left: 94px;
+    }
+    .cc{
+        font-size: 20px;
+        top: -236px;
+        left: 94px;
+    }
+    iframe{
+        width: 600px;
+        height: 400px;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .AppGrat{
+        width: 100%;
+        height: 101px;
+        background-color:#FCBE1D;
+        margin-bottom: 10px;
+    }
+    h1{
+        text-align: center;
+        color: black;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Inika;
+        font-size: 40px;
+        font-weight: 400;
+        padding: 15px
+    }
+    .chico{
+        margin: auto;
+        width: 74%;
+        margin-bottom: 60px;
+        left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .text1{
+        color: black;
+        font-family: Inika;
+        font-size: 25px;
+        font-weight: 400;
+        white-space: nowrap;
+        border-right: 2px solid;
+        width: 71ch;
+        animation: typing 4s steps(71),
+        blink .5s infinite step-end ;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .minecraft12{
+        width: 100%;
+        height: 400px;
+        background-color:#000;
+        margin-bottom: 110px;
+        display: flex;
+    }
+    #mine1{
+        width: 450px;
+        height: 240px;
+        top: 60px;
+        left: 160px;
+    }
+    #mine2{
+        width: 450px;
+        height: 240px;
+        top: 60px;
+        left: 210px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        top: 43px;
+        left: 20px;
+    }
+    .puto{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 48vh; 
+    }
+    #h5{
+        width: 700px;
+        height: 69px;
+        font-size: 35px;
+        top: -220px;
+        left: -80px;
+    }
+    #h3{
+        width: 560px;
+        height: 79px; 
+        top: -220px;
+        font-size: 35px;
+        left: 20px;
+    }
+    h4{
+        font-size: 20px;
+        top: -245px;
+        left: 94px;
+    }
+    .cc{
+        font-size: 20px;
+        top: -236px;
+        left: 94px;
+    }
+    iframe{
+        width: 500px;
+        height: 360px;
+        
+    }
+}
+@media screen and (min-width: 1600px) and (orientation: landscape) {
+    .AppGrat{
+        width: 100%;
+        height: 101px;
+        background-color:#FCBE1D;
+        margin-bottom: 10px;
+    }
+    h1{
+        text-align: center;
+        color: black;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Inika;
+        font-size: 40px;
+        font-weight: 400;
+        padding: 15px
+    }
+    .chico{
+        margin: auto;
+        width: 74%;
+        margin-bottom: 60px;
+        left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 20px;
+        left: 70px;
+    }
+    .text1{
+        color: black;
+        font-family: Inika;
+        font-size: 25px;
+        font-weight: 400;
+        white-space: nowrap;
+        border-right: 2px solid;
+        width: 71ch;
+        animation: typing 4s steps(71),
+        blink .5s infinite step-end ;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .minecraft12{
+        width: 100%;
+        height: 400px;
+        background-color:#000;
+        margin-bottom: 110px;
+        display: flex;
+    }
+    #mine1{
+        width: 450px;
+        height: 240px;
+        top: 60px;
+        left: 160px;
+    }
+    #mine2{
+        width: 450px;
+        height: 240px;
+        top: 60px;
+        left: 280px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        top: 43px;
+        left: 20px;
+    }
+    .puto{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 48vh; 
+    }
+    #h5{
+        width: 700px;
+        height: 69px;
+        font-size: 35px;
+        top: -220px;
+        left: -80px;
+    }
+    #h3{
+        width: 560px;
+        height: 79px; 
+        top: -220px;
+        font-size: 35px;
+        left: 20px;
+    }
+    h4{
+        font-size: 20px;
+        top: -245px;
+        left: 94px;
+    }
+    .cc{
+        font-size: 20px;
+        top: -236px;
+        left: 94px;
+    }
+    iframe{
+        width: 600px;
+        height: 400px;
+    }
+}
+@media screen and (min-width: 1700px){
+    .AppGrat{
+        width: 100%;
+        height: 101px;
+        background-color:#FCBE1D;
+        margin-bottom: 10px;
+    }
+    h1{
+        text-align: center;
+        color: black;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Inika;
+        font-size: 40px;
+        font-weight: 400;
+        padding: 15px
+    }
+    .chico{
+        margin: auto;
+        width: 74%;
+        margin-bottom: 60px;
+        left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 20px;
+        left: 120px;
+    }
+    .text1{
+        color: black;
+        font-family: Inika;
+        font-size: 25px;
+        font-weight: 400;
+        white-space: nowrap;
+        border-right: 2px solid;
+        width: 71ch;
+        animation: typing 4s steps(71),
+        blink .5s infinite step-end ;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .minecraft12{
+        width: 100%;
+        height: 400px;
+        background-color:#000;
+        margin-bottom: 110px;
+        display: flex;
+    }
+    #mine1{
+        width: 450px;
+        height: 240px;
+        top: 60px;
+        left: 180px;
+    }
+    #mine2{
+        width: 450px;
+        height: 240px;
+        top: 60px;
+        left: 390px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        top: 43px;
+        left: 20px;
+    }
+    .puto{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 48vh; 
+    }
+    #h5{
+        width: 700px;
+        height: 69px;
+        font-size: 35px;
+        top: -220px;
+        left: -80px;
+    }
+    #h3{
+        width: 560px;
+        height: 79px; 
+        top: -220px;
+        font-size: 35px;
+        left: 20px;
+    }
+    h4{
+        font-size: 20px;
+        top: -245px;
+        left: 94px;
+    }
+    .cc{
+        font-size: 20px;
+        top: -236px;
+        left: 94px;
+    }
+    iframe{
+        width: 600px;
+        height: 400px;
+    }
+}
+@media screen and (min-width: 1850px){
+    .AppGrat{
+        width: 100%;
+        height: 101px;
+        background-color:#FCBE1D;
+        margin-bottom: 10px;
+    }
+    h1{
+        text-align: center;
+        color: black;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Inika;
+        font-size: 40px;
+        font-weight: 400;
+        padding: 15px
+    }
+    .chico{
+        margin: auto;
+        width: 74%;
+        margin-bottom: 60px;
+        left: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 20px;
+        left: 120px;
+        background-color: red;
+    }
+    .text1{
+        color: black;
+        font-family: Inika;
+        font-size: 25px;
+        font-weight: 400;
+        white-space: nowrap;
+        border-right: 2px solid;
+        width: 71ch;
+        animation: typing 4s steps(71),
+        blink .5s infinite step-end ;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .minecraft12{
+        width: 100%;
+        height: 400px;
+        background-color:#000;
+        margin-bottom: 110px;
+        display: flex;
+    }
+    #mine1{
+        width: 450px;
+        height: 240px;
+        top: 60px;
+        left: 180px;
+    }
+    #mine2{
+        width: 450px;
+        height: 240px;
+        top: 60px;
+        left: 390px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        top: 43px;
+        left: 20px;
+    }
+    .puto{
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: 48vh; 
+    }
+    #h5{
+        width: 700px;
+        height: 69px;
+        font-size: 35px;
+        top: -220px;
+        left: -80px;
+    }
+    #h3{
+        width: 560px;
+        height: 79px; 
+        top: -220px;
+        font-size: 35px;
+        left: 20px;
+    }
+    h4{
+        font-size: 20px;
+        top: -245px;
+        left: 94px;
+    }
+    .cc{
+        font-size: 20px;
+        top: -236px;
+        left: 94px;
+    }
+    iframe{
+        width: 600px;
+        height: 400px;
+    }
 }
 @media only screen and (max-width: 900px) {
 * {
