@@ -1,6 +1,12 @@
 * {
     padding: 0px; margin: 0px;
 }
+.Politica{
+    position: absolute;
+    left: 82%;
+    top: 40%;
+
+}
 .mydiv {
     position: relative;
     top: 40px;
@@ -49,15 +55,16 @@ textarea{
     height: 101px;
     background-color:#FCBE1D;
     margin-bottom: 10px;
+    position: relative;
 }
-h1{
-    text-align: center;
+.MM{
     color: black;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Inika;
     font-size: 40px;
-    font-weight: 400;
-    padding: 15px
+    position: absolute;
+    left: 43%;
+    top: 20%;
 }
 .chico{
     margin: auto;
@@ -103,6 +110,7 @@ h1{
     background-color:#000;
     margin-bottom: 110px;
     display: flex;
+    position: relative;
 }
 #mine1{
     width: 350px;
