@@ -375,7 +375,7 @@ h4{
         font-size: 35px;
     }
     #text2{
-        margin-bottom: 25px;
+        margin-bottom: 35px;
         font-size: 30px;
     }
     .minecraft12{
@@ -395,6 +395,7 @@ h4{
         left: 400px;
     }
     iframe{
+        margin-bottom: 10px;
         width: 800px;
         height: 500px;
     }
