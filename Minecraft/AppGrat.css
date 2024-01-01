@@ -61,10 +61,10 @@ textarea{
     color: black;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Inika;
-    font-size: 40px;
+    font-size: 60px;
     position: absolute;
     left: 43%;
-    top: 20%;
+    top: 30%;
 }
 .chico{
     margin: auto;
